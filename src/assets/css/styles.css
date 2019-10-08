@@ -95,7 +95,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+
     /* DEGRADADO CSS */
     background: #eb4e32;
     background: -moz-radial-gradient(center, ellipse cover, #eb4e32 0%, #fc2a0f 29%, #e23237 100%);
@@ -171,7 +171,7 @@ body {
 }
 
 #sidebar {
-    width: 25%;
+    width: 100%;
     float: left;
     margin-left: 20px;
 }
@@ -200,7 +200,7 @@ body {
 
 .btn-success:hover {
     background: black;
-    
+
 }
 
 .mid-form {
@@ -399,7 +399,7 @@ textarea {
 
     #sidebar {
         float: none;
-        width: 60%;
+        width: 100%;
         margin: 0px auto;
         margin-bottom: 50px;
     }
@@ -416,7 +416,7 @@ textarea {
 /* Pantallas desde 0px - 950px */
 @media (max-width: 500px){
     #header {
-        display: inherit;
+        display: block;
         min-height: 130px;
         overflow: hidden;
 
